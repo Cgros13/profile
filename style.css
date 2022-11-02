@@ -1,0 +1,80 @@
+body {
+  background-color: #F5F1ED;
+  color: #235789;
+  line-height: 25px;
+  font-size: medium;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  color: #A99985;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+}
+
+.ppofme {
+  border-radius: 36%;
+  width: 100px;
+}
+
+.card_foot, .card_head {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 5%;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+#btn-green {
+  background-color: #235789;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#btn-green:hover {
+  text-decoration: none;
+  color: #2DD881;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* media queries */
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
